@@ -13,7 +13,6 @@ echo "
 ===============================================
     Spammer Call From TokeD
         Author By   : Coohyaa
-        Support      : Beri Rating Di https://github.com/Coohyaa
      Penggunaannya  : Harus Menggunakan 08 Yaaa Kawan
 ===============================================\n";
 echo "Nomor\nInput : ";
