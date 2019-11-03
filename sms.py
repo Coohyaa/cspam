@@ -7,7 +7,7 @@ s = Session()
 
 try:
         print("SMS Gratis by Coohyaa\nGunakan 62 Yaa Kawan")
-        no = int(input("No    : ")
+        no = int(input("No    : "))
         msg = input("Pesan : ")
 except:                                                                                                                       print("\n\t* Cek nomermu atau pesanmu! *")
         sys.exit()
