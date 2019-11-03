@@ -1,16 +1,16 @@
 # Coohyaa
-#666C666
+#Illumination
 
 from requests import Session
 import re, sys
 s = Session()
 
 try:
-        print("SMS Gratis by Coohyaa\nGunakan 62 Yaa Kawan")
+        print("SMS Gratis by Coohyaa\nGunakan 62 Yaaaaaaa")
         no = int(input("No    : "))
         msg = input("Pesan : ")
-except: 
-        print("\n\t* Cek nomermu atau pesanmu! *")                                                                                                                      print("\n\t* Cek nomermu atau pesanmu! *")
+except:
+        print("\n\t* Masukin Nomor/ Pesan Yg Bener Bang *")
         sys.exit()
 
 headers = {
@@ -33,8 +33,8 @@ data = {
 send = s.post("http://sms.payuterus.biz/alpha/send.php", headers=headers, data=data).text
 
 if 'SMS Gratis Telah Dikirim' in send:
-        print(f"\nSudah Terkirim Semoga Bahagia\n[{no}] => {msg}")
+        print(f"\nUdah Kekirim Semoga Bahagia \n[{no}] => {msg}")
 elif 'MAAF....!' in send:
-        print("\n\t* Klo Mau Ngirim Ke Nomor Yg Sama Tunggu 15 Menit ya *")
+        print("\n\t* Tunggu 15 Menit Yaaa Untuk Pesan Yg Sama, Atau Coba Ulang Toolsnya *")
 else:
-        print("\n\t* Waduh Gagal *")
+        print("\n\t* Yahh Gagal:( *")
